@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+.nav-link:hover{
+    color: gold !important;
+}
+
+
+/* SLIDER DA PAGINA DESTINO */
+
+#l-slider__destino .container .row .slider {
+    height: 20rem;
+    margin-bottom: 1rem;
+    border-radius: .7em;
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/bannerDestino.jpg');
+}
+
+/* SLIDER DA PAGINA PROMOÇÕES */
+
+#l-slider__promocoes .container .row .slider {
+    height: 20rem;
+    margin-bottom: 1rem;
+    border-radius: .7em;
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/bannerPromocao.jpg');
+}
+
+/* SLIDER DA HOME */
+
+#l-slider .container .row .slider {
+    height: 20rem;
+    margin-bottom: 1rem;
+    border-radius: .7em;
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/bannerHome.jpg');
+}
+
+#l-main .container .row .content {
+    border-radius: .7em;
+    max-height: max-content;
+    border: 1px solid black;
+}
+
+/* SIDERBAR DA PAGINA DESTINO */
+
+#l-main .container .row .sidebar {
+    max-width: auto;
+    height: fit-content;
+    border-radius: .7em;
+    border: 1px solid black;
+}
+
+/* FOOTER GLOBAL */
+
+#l-footer .container-flex .row {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* FOOTER DA PAGINA CONTATO */
+
+#l-footer__contato .container-flex .row {
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+

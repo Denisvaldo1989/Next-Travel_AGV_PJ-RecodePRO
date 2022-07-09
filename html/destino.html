@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino</title>
+    <link rel="icon" type="image/x-icon" href="../images/fav.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- MENU HEADER -->
+
+    <div id="l-heider_destino">
+        <header class="container-flex mb-3 p-3 bg-info border border-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <ul class="nav nav-tabs col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="../index.html" class="nav-link px-2 text-light fw-bold">INICIO</a></li>
+                        <li><a href="./destino.html" class="nav-link active px-2 text-warning fw-bold">DESTINO</a></li>
+                        <li><a href="./promocoes.html" class="nav-link px-2 text-light fw-bold">PROMOÇÕES</a></li>
+                        <li><a href="./contato.html" class="nav-link px-2 text-light fw-bold">CONTATO</a></li>
+                        <li><a href="./sobre.html" class="nav-link px-2 text-light fw-bold">SOBRE</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="buscar">
+                        <input type="buscar" class="form-control form-control-dark text-dark bg-light"
+                            placeholder="Buscar..." aria-label="Buscar">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Entrar</button>
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#cadastreModal">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- TEXTO DO SLIDER -->
+
+    <div id="l-slider__destino">
+        <div class="container">
+            <div class="row">
+                <div class="slider col-md-12">
+                    <h2 class="fs-1 text-light">VENHA<br>
+                        DESBRAVAR<br>
+                    </h2>
+                    <h2 class="fs-1 text-warning">O MUNDO!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILTRO DE PAISES -->
+
+    <div id="l-main">
+        <div class="container">
+            <div class="row gap-1">
+                <div class="sidebar col-md-12 mb-3 col-lg-3">
+                    <div class="container pt-3 ps-0">
+                        <div id="filter">
+                            <h6>Filtrar por países</h6>
+                            <div class="p-0">
+                                <br>
+                                <input type="checkbox" name="venezuela" id="venezuela">
+                                <label for="venezuela">Venezuela</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="barbados" id="barbados">
+                                <label for="barbados">Barbados</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="cuba" id="cuba">
+                                <label for="cuba">Cuba</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="mexico" id="mexico">
+                                <label for="mexico">México</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="holanda" id="holanda">
+                                <label for="holanda">Holanda</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="bermudas" id="bermudas">
+                                <label for="bermudas">Bermudas</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="colombia" id="colombia">
+                                <label for="colombia">Colômbia</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARDS DE VIAGENS -->
+
+                <div class="content__destino col-md pt-0 ps-0 pe-0">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_1.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Aruba</a></h5>
+                                            <p class="card-text">Os baladeiros não podem perder a concorrida Palm Beach;
+                                                enquanto os que querem mais privacidade, devem rumar até a pequena e
+                                                quase
+                                                deserta praia de Arashi.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_2.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Punta Cana, República
+                                                    Dominicana</a></h5>
+                                            <p class="card-text">Difícil vai ser escolher em qual praia de Punta Cana
+                                                ficar,
+                                                todas de mar calmo e transparente.</p>
+                                            <p class="card-text pt-4"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_3.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Ilha de Curaçao</a>
+                                            </h5>
+                                            <p class="card-text">De governo holandês e pertinho de Aruba, a ilha de
+                                                Curaçao
+                                                não ostenta um número tão grande de praias, mas esbanja beleza e
+                                                conforto
+                                                para seus visitantes.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_4.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Barbados</a></h5>
+                                            <p class="card-text">País mais oriental do Caribe, Barbados é pequena
+                                                (apenas 34
+                                                quilômetros de comprimento), mas de grande beleza natural. </p>
+                                            <p class="card-text pt-4"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_5.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Ilhas Turcas e
+                                                    Caicos</a></h5>
+                                            <p class="card-text">Outro destino queridinho das celebridades
+                                                internacionais,
+                                                as Ilhas Turcas e Caicos ostentam resorts e mansões invejáveis e
+                                                restaurantes à beira do maravilhoso mar caribenho. </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_6.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Cayo Largo, Cuba</a>
+                                            </h5>
+                                            <p class="card-text">São centenas de “cayos” para escolher em Cuba, uma mais
+                                                linda que a outra. As pequenas ilhas rasas, espécies de línguas de
+                                                areai,
+                                                não têm população local, mas sim incríveis resorts do ripo
+                                                all-inclusive.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_7.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Hamilton, Bermudas</a>
+                                            </h5>
+                                            <p class="card-text">Misterioso e com paisagens arrebatadoras, o arquipélago
+                                                das
+                                                Bermudas é sonho de consumo de muitos viajantes.</p>
+                                            <p class="card-text pt-4"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_8.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Playa del Carmen,
+                                                    México</a></h5>
+                                            <p class="card-text">Se Cancún logo vem à mente quando se fala em Caribe no
+                                                México, a vizinha Playa del Carmen, a meros 70km de distância, costuma
+                                                ser
+                                                uma opção menos lotada e mais acessível.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_9.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">San Andrés,
+                                                    Colômbia</a></h5>
+                                            <p class="card-text">Esse é para quem sempre quis passar férias em uma ilha
+                                                do
+                                                Caribe, mas nunca achou que teria orçamento suficiente para bancar esse
+                                                sonho. </p>
+                                            <p class="card-text pt-4"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_10.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">Ilha de St-Barth</a>
+                                            </h5>
+                                            <p class="card-text">Sua praia mais famosa, por exemplo, é a pequena e
+                                                paradisíaca Gouverneur, onde não há hotéis ou comércios ao redor. Ideal,
+                                                portanto, para por completo em meio a uma paisagem sem igual.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4 w-100 py-3">
+                                        <img src="../images/brft_11.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><a href="#" class="text-info">St-Maarten</a></h5>
+                                            <p class="card-text">Parte das extintas Antilhas Holandesas, a ilha tem mais
+                                                infraestrutura para o turismo, como resorts, lojinhas e ótima
+                                                gastronomia.
+                                            </p>
+                                            <p class="card-text pt-4"><small class="text-muted">Last updated 3 mins
+                                                    ago</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="l-footer">
+        <div class="container-flex bg-info">
+            <div class="row mx-0">©D3N1SVALDO</div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+<!-- MODAL DOS BOTÕES LOGIN E CADASTRO -->
+<!-- LOGIN -->
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Fazer login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Digite seu E-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Senha:</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder="Digite sua senha">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Entrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CADASTRO -->
+
+<div class="modal fade" id="cadastreModal" tabindex="-1" aria-labelledby="cadastreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cadastreModalLabel">Cadastro</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Nome:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dateNascimento">Data de nascimento:</label>
+                        <input class="ms-5" type="date" name="dateNascimento" id="dateNascimento">
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="recipient-name" placeholder="Digite seu E-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Senha:</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder="Digite sua senha">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

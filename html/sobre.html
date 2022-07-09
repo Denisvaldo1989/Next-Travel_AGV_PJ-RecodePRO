@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="icon" type="image/x-icon" href="../images/fav.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- MENU HEADER -->
+
+    <div id="l-header__sobre">
+        <header class="container-flex mb-3 p-3 bg-info border border-dark">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <ul class="nav nav-tabs col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="../index.html" class="nav-link px-2 text-light fw-bold">INICIO</a></li>
+                        <li><a href="./destino.html" class="nav-link px-2 text-light fw-bold">DESTINO</a></li>
+                        <li><a href="./promocoes.html" class="nav-link px-2 text-light fw-bold">PROMOÇÕES</a></li>
+                        <li><a href="./contato.html" class="nav-link px-2 text-light fw-bold">CONTATO</a></li>
+                        <li><a href="./sobre.html" class="nav-link active px-2 text-warning fw-bold">SOBRE</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="buscar">
+                        <input type="buscar" class="form-control form-control-dark text-dark bg-light"
+                            placeholder="Buscar..." aria-label="Buscar">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Entrar</button>
+                        <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                            data-bs-target="#cadastreModal">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- IMAGEM DE CONTATO -->
+
+    <div class="container p-5">
+        <div class="row">
+            <img src="../images/about.jpg" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="l-footer__contato">
+        <div class="container-flex bg-info fixed-bottom">
+            <div class="row mx-0">©D3N1SVALDO</div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+<!-- MODAL DOS BOTÕES LOGIN E CADASTRO -->
+<!-- LOGIN -->
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Fazer login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Digite seu E-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Senha:</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder="Digite sua senha">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Entrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CADASTRO -->
+
+<div class="modal fade" id="cadastreModal" tabindex="-1" aria-labelledby="cadastreModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cadastreModalLabel">Cadastro</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Nome:</label>
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dateNascimento">Data de nascimento:</label>
+                        <input class="ms-5" type="date" name="dateNascimento" id="dateNascimento">
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="recipient-name" placeholder="Digite seu E-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Senha:</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder="Digite sua senha">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</html>
